@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import data from './data'
-import './styles.css'
+import './styles.module.css'
 
 export default function Accordian () {
 

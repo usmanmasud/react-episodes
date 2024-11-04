@@ -1,9 +1,11 @@
-import Accordian from "./accordian/Page"
+// import Accordian from "./accordian/Page"
+import RandomColor from "./random-color/page"
 
 function App() {
   return (
     <>
-      <Accordian />
+      {/* <Accordian /> */}
+      <RandomColor />
     </>
   )
 }
