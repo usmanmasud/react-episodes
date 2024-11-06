@@ -1,13 +1,22 @@
 // import Accordian from "./accordian/Page"
 // import RandomColor from "./random-color/page"
-import { StarRating } from "./star-rating/page"
+
+import ImageSlider from "./ImageSlider/Page"
+import Page from "./star-rating/page"
 
 function App() {
   return (
     <>
       {/* <Accordian /> */}
+
       {/* <RandomColor /> */}
-      <StarRating />
+
+    {/* Star Rating Page */}
+      {/* <Page noOfStars={10} /> */}
+      {/* end */}
+
+      <ImageSlider  url={'https://picsum.photos/v2/list'} limit={10} page={1} />
+      
     </>
   )
 }
