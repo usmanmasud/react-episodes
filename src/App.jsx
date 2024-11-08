@@ -4,6 +4,8 @@
 import ImageSlider from "./ImageSlider/Page"
 import LoadMoreData from "./load-more-btm/page"
 import Page from "./star-rating/page"
+import menus from "./Tree-view/data"
+import TreeView from "./Tree-view/page"
 
 function App() {
   return (
@@ -17,8 +19,9 @@ function App() {
       {/* end */}
 
       {/* <ImageSlider  url={'https://picsum.photos/v2/list'} limit={10} page={1} /> */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
 
+      <TreeView menus={menus} />
 
     </>
   )
