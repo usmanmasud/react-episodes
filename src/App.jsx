@@ -3,6 +3,7 @@
 
 import ImageSlider from "./ImageSlider/Page"
 import LoadMoreData from "./load-more-btm/page"
+import QrCodeGenerator from "./qr-generator/page"
 import Page from "./star-rating/page"
 import menus from "./Tree-view/data"
 import TreeView from "./Tree-view/page"
@@ -22,6 +23,8 @@ function App() {
       {/* <LoadMoreData /> */}
 
       {/* <TreeView menus={menus} /> */}
+
+      <QrCodeGenerator />
 
     </>
   )
