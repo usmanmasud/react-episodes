@@ -2,6 +2,7 @@
 // import RandomColor from "./random-color/page"
 
 import './App.css'
+import TabTest from './custom-tabs/tab-test'
 import ScrollIndicator from './scroll-indicator/page'
 
 // import ThemeSwitch from "./theme-switch/page"
@@ -36,7 +37,7 @@ function App() {
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit-100'} /> */}
 
 
-
+      <TabTest />
 
     </>
   )
