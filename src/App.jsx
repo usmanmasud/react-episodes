@@ -2,8 +2,9 @@
 // import RandomColor from "./random-color/page"
 
 import './App.css'
+import ScrollIndicator from './scroll-indicator/page'
 
-import ThemeSwitch from "./theme-switch/page"
+// import ThemeSwitch from "./theme-switch/page"
 
 // import ImageSlider from "./ImageSlider/Page"
 // import LoadMoreData from "./load-more-btm/page"
@@ -30,7 +31,9 @@ function App() {
 
       {/* <QrCodeGenerator /> */}
 
-      <ThemeSwitch />
+      {/* <ThemeSwitch /> */}
+
+      <ScrollIndicator url={'https://dummyjson.com/products?limit-100'} />
 
     </>
   )
