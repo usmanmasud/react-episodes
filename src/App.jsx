@@ -6,6 +6,7 @@ import ModalTest from './custom-model-popup/modal-test'
 import TabTest from './custom-tabs/tab-test'
 import GithubFinder from './github-propfile-finder/page'
 import ScrollIndicator from './scroll-indicator/page'
+import AutoComplete from './search-auto-complete/page'
 
 // import ThemeSwitch from "./theme-switch/page"
 
@@ -45,7 +46,9 @@ function App() {
       {/* <ModalTest /> */}
 
 
-      <GithubFinder />
+      {/* <GithubFinder /> */}
+
+      <AutoComplete />
 
     </>
   )
