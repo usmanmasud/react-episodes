@@ -4,6 +4,7 @@
 import './App.css'
 import ModalTest from './custom-model-popup/modal-test'
 import TabTest from './custom-tabs/tab-test'
+import GithubFinder from './github-propfile-finder/page'
 import ScrollIndicator from './scroll-indicator/page'
 
 // import ThemeSwitch from "./theme-switch/page"
@@ -41,7 +42,10 @@ function App() {
       {/* <TabTest /> */}
 
 
-      <ModalTest />
+      {/* <ModalTest /> */}
+
+
+      <GithubFinder />
 
     </>
   )
