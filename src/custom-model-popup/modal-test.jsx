@@ -9,10 +9,19 @@ export default function ModalTest() {
         setShowPopup(!showPopup)
     }
 
+    function onClose() {
+        setShowPopup(false)
+    }
+
     return <div>
         <button onClick={handleTogglePop}>Open Modal Popup</button>
         {
-            showPopup && <Modal />
+            showPopup && <Modal
+                body={<div>Customized Body</div>}
+                header={<h2>This is my customized header</h2>}
+                footer={<h2>This is my customized footer</h2>}
+                onClose={onClose}
+            />
         }
     </div>
 }
