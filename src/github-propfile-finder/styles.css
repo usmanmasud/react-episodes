@@ -1,4 +1,4 @@
-.git-container{
+.git-container {
     margin: 0 auto;
     width: 90%;
     max-width: 1000px;
@@ -59,6 +59,6 @@
     justify-content: center;
     gap: 20px;
     margin: 0px;
-        font-size: 20px;
-        font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
 }
