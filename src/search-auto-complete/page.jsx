@@ -26,6 +26,12 @@ export default function AutoComplete() {
         }
     }
 
+    function handleClick(e) {
+        setShowDropdown(false);
+        setSearchParam(e.target.innerText);
+        setFilteredUsers('')
+    }
+
     async function fetchData() {
         try {
             setLoading(true)
@@ -63,7 +69,7 @@ export default function AutoComplete() {
             onChange={handleChange}
         />
         {
-            showDropdown && <Suggestions data={filteredUsers} />
+            showDropdown && <Suggestions handleClick={handleClick} data={filteredUsers} />
         }
     </div>
 }
