@@ -2,6 +2,7 @@
 // import RandomColor from "./random-color/page"
 
 import './App.css'
+import ModalTest from './custom-model-popup/modal-test'
 import TabTest from './custom-tabs/tab-test'
 import ScrollIndicator from './scroll-indicator/page'
 
@@ -37,7 +38,10 @@ function App() {
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit-100'} /> */}
 
 
-      <TabTest />
+      {/* <TabTest /> */}
+
+
+      <ModalTest />
 
     </>
   )
