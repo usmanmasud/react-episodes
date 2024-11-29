@@ -7,6 +7,7 @@ import TabTest from './custom-tabs/tab-test'
 import GithubFinder from './github-propfile-finder/page'
 import ScrollIndicator from './scroll-indicator/page'
 import AutoComplete from './search-auto-complete/page'
+import TicTacToe from './tix-tac-toe/page'
 
 // import ThemeSwitch from "./theme-switch/page"
 
@@ -48,7 +49,10 @@ function App() {
 
       {/* <GithubFinder /> */}
 
-      <AutoComplete />
+      {/* <AutoComplete /> */}
+
+
+      <TicTacToe />
 
     </>
   )
