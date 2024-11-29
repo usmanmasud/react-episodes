@@ -52,7 +52,7 @@ function App() {
       {/* <AutoComplete /> */}
 
 
-      <TicTacToe />
+      {/* <TicTacToe /> */}
 
     </>
   )
