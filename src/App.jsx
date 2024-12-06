@@ -4,6 +4,8 @@
 import './App.css'
 import ModalTest from './custom-model-popup/modal-test'
 import TabTest from './custom-tabs/tab-test'
+import FeatureFlag from './featureflag'
+import FeatureFlagGlobalState from './featureflag/context'
 import GithubFinder from './github-propfile-finder/page'
 import ScrollIndicator from './scroll-indicator/page'
 import AutoComplete from './search-auto-complete/page'
@@ -54,6 +56,9 @@ function App() {
 
       {/* <TicTacToe /> */}
 
+      <FeatureFlagGlobalState>
+        <FeatureFlag />
+      </FeatureFlagGlobalState>
     </>
   )
 }
