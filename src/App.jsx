@@ -10,6 +10,8 @@ import GithubFinder from './github-propfile-finder/page'
 import ScrollIndicator from './scroll-indicator/page'
 import AutoComplete from './search-auto-complete/page'
 import TicTacToe from './tix-tac-toe/page'
+import UseFetchHookTest from './useFetch/test'
+import UseOnClickOutTest from './useOutsidClick/test'
 
 // import ThemeSwitch from "./theme-switch/page"
 
@@ -56,9 +58,17 @@ function App() {
 
       {/* <TicTacToe /> */}
 
-      <FeatureFlagGlobalState>
+      {/* <FeatureFlagGlobalState>
         <FeatureFlag />
-      </FeatureFlagGlobalState>
+      </FeatureFlagGlobalState> */}
+
+
+      {/* <UseFetchHookTest /> */}
+
+      <UseOnClickOutTest />
+
+
+
     </>
   )
 }
