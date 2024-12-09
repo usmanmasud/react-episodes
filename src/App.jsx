@@ -10,6 +10,7 @@ import GithubFinder from './github-propfile-finder/page'
 import ScrollIndicator from './scroll-indicator/page'
 import AutoComplete from './search-auto-complete/page'
 import TicTacToe from './tix-tac-toe/page'
+import UseWindowResizeTest from './use-reize/test'
 import UseFetchHookTest from './useFetch/test'
 import UseOnClickOutTest from './useOutsidClick/test'
 
@@ -65,8 +66,9 @@ function App() {
 
       {/* <UseFetchHookTest /> */}
 
-      <UseOnClickOutTest />
+      {/* <UseOnClickOutTest /> */}
 
+      <UseWindowResizeTest />
 
 
     </>
