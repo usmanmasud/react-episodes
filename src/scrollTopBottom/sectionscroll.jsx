@@ -1,7 +1,10 @@
 
-import React from 'react'
+import React, { useRef } from 'react'
 
 export default function Sectionscroll() {
+    const ref = useRef()
+
+
     const data = [
         {
             label: 'first card',
@@ -46,12 +49,21 @@ export default function Sectionscroll() {
         },
     ]
 
+    function handleScrollToSection() {
+        let pos = ref.current.getBoundingClientRect().top
+
+        window.scrollTo({
+            top: pos,
+            behavior: 'smooth'
+        })
+    }
+
     return (
         <div>
             <h1>Scroll to a scetion</h1>
-            <button>Click To Scroll</button>
+            <button onClick={handleScrollToSection}>Click To Scroll</button>
             {
-                data.map(item => <div style={item.style}>
+                data.map((item, index) => <div style={item.style} ref={index === 3 ? ref : null}>
                     <h3>{item.label}</h3>
                 </div>)
             }
