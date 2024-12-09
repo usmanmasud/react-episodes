@@ -9,6 +9,7 @@ import FeatureFlagGlobalState from './featureflag/context'
 import GithubFinder from './github-propfile-finder/page'
 import ScrollIndicator from './scroll-indicator/page'
 import ScrollTopBottom from './scrollTopBottom/page'
+import Sectionscroll from './scrollTopBottom/sectionscroll'
 import AutoComplete from './search-auto-complete/page'
 import TicTacToe from './tix-tac-toe/page'
 import UseWindowResizeTest from './use-reize/test'
@@ -71,7 +72,10 @@ function App() {
 
       {/* <UseWindowResizeTest /> */}
 
-      <ScrollTopBottom />
+      {/* <ScrollTopBottom /> */}
+
+
+      <Sectionscroll />
 
     </>
   )
